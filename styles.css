@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Maven+Pro:wght@500&family=Ysabeau&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,22 +7,27 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: #b3b9bb;
 }
 
 header {
+    width: 90%;
+    margin: auto;
     display: block;
     justify-content: center;
     align-content: center;
+    background-color: #8294C4;
+    padding: 2em;
+    border-radius: 5px;
 }
 
 header h1{
-    font-family: 'Space Grotesk';
+    font-family: 'Kanit';
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 77px;
-    color: #078080;
+    color: #FFEAD2;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
 }
@@ -28,18 +35,19 @@ header h1{
 header p {
     width: 50%;
     margin: auto;
-    font-family: 'Space Grotesk';
+    font-family: 'Ysabeau';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
     text-align: center;
-    color: #222525;
+    color: #FFEAD2;
     text-align: center;
 }
 
 main {
     margin: auto;
+    margin-top: 2rem;
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -51,18 +59,61 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #ACB1D6;
+    border-radius: 10px;
+    margin: 4em;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
 
 .ingredients {
-    background-color: aquamarine;
+    margin-top: 2rem;
+    font-family: "Ysabeau";
 }
 
 aside {
+    background-color: #DBDFEA;
     width: 30%;
-    background-color: yellow;
+    border-left: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    border-radius: 20px;
+    margin: 4em;
+    font-family: "Ysabeau";
+    font-size: 16px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 img {
     margin: auto;
 }
+
+
+
+.ingredients h4 {
+    text-align: center;
+    color:  #41382e;
+    letter-spacing: 2px;
+}
+
+.ingredients li {
+    line-height: 2rem;
+    color: #f5f5f5;
+}
+
+aside li {
+    line-height: 2rem;
+    margin-top: 3rem;
+    color: #83764F;
+    
+}
+
+aside h2 , h4 {
+    color:  #078080;
+}
+
